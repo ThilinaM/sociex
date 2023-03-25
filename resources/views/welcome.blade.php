@@ -140,9 +140,8 @@
         </div>
     </body>
     <footer>
-        <div class="text-center" style=" position: fixed;
-        left: 0;
+        <div class="text-center" style="         left: 0;
         bottom: 0;
-        width: 100%;">Design and develop by <a href="https://thilinadharmasena.com/">Thilina Dharmasena </a></div> 
+        width: 100%;">Design and develop by <a href="sociexmedia.com">Sociex Media</a></div> 
     </footer>
 </html>
