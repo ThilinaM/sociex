@@ -127,7 +127,7 @@
                     </div>
                     <div class="col-md-12">
                         <div class="text-center">                            
-                            <div><img src="img/partner.png" style="width: 300px;" alt=""></div>
+                            <div><img src="img/partner.png" style="width: 100%;" alt=""></div>
                     </div>
                     </div>
                 
