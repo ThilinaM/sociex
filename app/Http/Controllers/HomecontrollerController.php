@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\EventAttendance;
 use App\Models\Event;
 use App\Models\EventFeedback;
+use Textit;
 
 class HomecontrollerController extends Controller
 {
@@ -37,6 +38,7 @@ class HomecontrollerController extends Controller
     {
         //
         $eventFeedback = EventFeedback::create($request->all());
+        
         return view('response');
         // return redirect()->route('HomecontrollerController.index');
     }
@@ -61,6 +63,7 @@ class HomecontrollerController extends Controller
     {
         //
         $eventAttendance = EventAttendance::create($request->all());
+        Textit::sms($request->mobile, 'Thank You for attend the Digital Innovation & Entrepreneurship Forum By CSH'); // using facade
         return view('response');
         // return redirect()->route('HomecontrollerController.index');
     }
