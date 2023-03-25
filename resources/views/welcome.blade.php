@@ -120,6 +120,15 @@
                             </button>
                         </div>
                     </form>
+
+                    <div class="col-md-12">
+                        <div class="text-center">                            
+          <div><label for="" class="text-value-lg"><h4><b>Our Partners</b></h4></label></div></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="text-center">                            
+                            <div><img src="img/partner.png" style="width: 300px;" alt=""></div>
+                    </div>
                     </div>
                 
             </div>
