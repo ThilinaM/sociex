@@ -142,6 +142,6 @@
     <footer>
         <div class="text-center" style="         left: 0;
         bottom: 0;
-        width: 100%;">Design and develop by <a href="sociexmedia.com">Sociex Media</a></div> 
+        width: 100%;">Design and develop by <a href="https://sociexmedia.com">Sociex Media</a></div> 
     </footer>
 </html>
