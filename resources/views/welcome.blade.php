@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Center Startup Hub</title>
+    <title>Rashi The Coach</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -41,8 +41,9 @@
 
             <div class="">
                 <div class="text-center">
-                  <div><img src="img/logo.png" style="width: 300px;" alt=""></div>
-<div><label for="" class="text-value-lg"><h1><b>Digital Innovation & Entrepreneurship Forum</b></h1></label></div>
+                  {{-- <div><img src="img/logo.png" style="width: 300px;" alt=""></div> --}}
+                  <br><br>
+<div><label for="" class="text-value-lg"><h1><b>Women Unite 2023 Annual Summit</b></h1></label></div>
 
 
      
@@ -127,8 +128,11 @@
                     </div>
                     <div class="col-md-12">
                         <div class="text-center">                            
-                            <div><img src="img/partner.png" style="width: 100%;" alt=""></div>
+                            <div><img src="img/partner.png" style="width: 260px" alt=""></div>
                     </div>
+                    </div>
+                    <div class="col-md-12"><br/>
+                        <div class="text-center"><h3><b>rashithecoach.com</b></h3></div>
                     </div>
                 
             </div>

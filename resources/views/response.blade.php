@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Center Startup Hub</title>
+    <title>Rashi The Coach</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -41,7 +41,7 @@
 
             <div class="">
                 <div class="text-center" style="margin-top:100px">
-                  <div><img src="img/logo.png" style="width: 350px;" alt=""></div>
+                  {{-- <div><img src="img/logo.png" style="width: 350px;" alt=""></div> --}}
 
 
                   <h2><div>ස්තූතියි ඔබට</div>
@@ -49,9 +49,21 @@
      <div>விவரம் தந்ததற்கு நன்றி</div></h2>
      
                 </div>        
-                
+                <br><br>
             </div >
 
+        </div>
+        <div class="col-md-12">
+            <div class="text-center">                            
+<div><label for="" class="text-value-lg"><h4><b>Our Partners</b></h4></label></div></div>
+        </div>
+        <div class="col-md-12">
+            <div class="text-center">                            
+                <div><img src="img/partner.png" style="width: 260px" alt=""></div>
+        </div>
+        </div>
+        <div class="col-md-12"><br/>
+            <div class="text-center"><h3><b>rashithecoach.com</b></h3></div>
         </div>
     </div>
 </div>
@@ -62,6 +74,8 @@
     left: 0;
     bottom: 0;
     width: 100%;">
-        <div class="text-center">Design and develop by <a href="https://thilinadharmasena.com/">Thilina Dharmasena </a></div> 
+       <div class="text-center" style="         left: 0;
+       bottom: 0;
+       width: 100%;">Design and develop by <a href="https://sociexmedia.com">Sociex Media</a></div> 
     </footer>
 </html>
