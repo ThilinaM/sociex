@@ -28,7 +28,7 @@ class HomecontrollerController extends Controller
     public function feedback()
     {
         //
-        $events = Event::pluck('title', 'id')->prepend(trans('global.pleaseSelect'), '');
+        $events = Event::pluck('title', 'id');
 
         return view('feedback', compact('events'));
         
