@@ -63,7 +63,7 @@ class HomecontrollerController extends Controller
     {
         //
         $eventAttendance = EventAttendance::create($request->all());
-        Textit::sms($request->mobile, 'Thank You for attend the Women Unite 2023 Annual Summit By Rashi The Coach'); // using facade
+        Textit::sms($request->mobile, 'Thank You for joining Women Unite 2023 Annual Summit By Rashi The Coach'); // using facade
         return view('response');
         // return redirect()->route('HomecontrollerController.index');
     }

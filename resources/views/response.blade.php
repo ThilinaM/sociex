@@ -45,7 +45,7 @@
 
 
                   <h2><div>ස්තූතියි ඔබට</div>
-     <div>Thank you for giving in the details</div> 
+     <div>Thank you for details</div> 
      <div>விவரம் தந்ததற்கு நன்றி</div></h2>
      
                 </div>        
